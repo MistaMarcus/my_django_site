@@ -1,0 +1,29 @@
+[33mcommit 9f8a6e150974eaeb00ee724b0a42cacebfddfd42[m[33m ([m[1;36mHEAD -> [m[1;32mstep_3_create_posts[m[33m, [m[1;31morigin/step_3_create_posts[m[33m)[m
+Author: Marcus Thompson <marcus.thompson5@yahoo.com>
+Date:   Tue Mar 24 17:23:31 2020 -0700
+
+    Style the app with bootstrap and css. Also applied DRY principle by using extensions in Django.
+
+[33mcommit b8ed9700f078eee8a7673d07027a89586631de12[m
+Author: Marcus Thompson <marcus.thompson5@yahoo.com>
+Date:   Tue Mar 24 10:56:20 2020 -0700
+
+    Add detail view for each post
+
+[33mcommit 57df0588615a89362c727b3031102989cac03f95[m
+Author: Marcus Thompson <marcus.thompson5@yahoo.com>
+Date:   Tue Mar 24 10:00:24 2020 -0700
+
+    Show all blog post on home page
+
+[33mcommit f1a205efe94b39a00740cee83f7e2294dfc4737c[m[33m ([m[1;31morigin/step_2_post_admin[m[33m, [m[1;31morigin/master[m[33m, [m[1;32mstep_2_post_admin[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Marcus Thompson <marcus.thompson5@yahoo.com>
+Date:   Mon Mar 23 09:51:11 2020 -0700
+
+    Add ability to make post from admin
+
+[33mcommit 2c8693ebc65f0eaf8a5009288f530f1a4519d081[m[33m ([m[1;31morigin/step_1_meal_prep[m[33m, [m[1;32mstep_1_meal_prep[m[33m)[m
+Author: Marcus Thompson <marcus.thompson5@yahoo.com>
+Date:   Sat Mar 21 13:45:47 2020 -0700
+
+    Initial commit. Sitting up the project
