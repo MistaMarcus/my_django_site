@@ -44,3 +44,11 @@ color: #828282;
 .post-form-blog .btn-primary {
   float: right;
 }
+
+
+.top-menu {
+    color: #ffffff;
+    float: right;
+    font-size: 26px;
+    margin-right: 20px;
+}
