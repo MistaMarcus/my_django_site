@@ -8,6 +8,6 @@
     "\\blog\\templates\\blog",
     "\\mysite"
   ],
-  "SelectedNode": "\\blog\\templates\\blog\\post_detail.html",
+  "SelectedNode": "\\blog\\urls.py",
   "PreviewInSolutionExplorer": false
 }
