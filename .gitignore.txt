@@ -1,2 +1,6 @@
 .log
+<<<<<<< HEAD
 *.pyc
+=======
+*.pyc
+>>>>>>> step_4_login
