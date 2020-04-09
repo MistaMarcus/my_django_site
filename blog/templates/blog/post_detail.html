@@ -23,6 +23,8 @@
         <a href="{% url 'post_edit' pk=post.pk %}"><i class="far fa-edit fa-5x"></i></a>
     {% endif %}
 
+        <a href="{%url 'post_delete' pk=post.pk %}" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this post?')">DELETE</a>
+
     <h1>{{post.title}}</h1>
     <p>{{post.text| markdown | safe }}</p>
 </div>
