@@ -1,4 +1,6 @@
 {% extends 'blog/base.html' %}
+{% load markdownify %}
+
 {% block content %}
 
         {% for post in posts %}
@@ -9,7 +11,7 @@
             </div>
 
           <h1><a href="{% url 'post_detail' pk=post.pk %}">{{post.title}}</a></h1>
-          <p>{{post.text}}</p>
+          <p>{{post.text | markdown | safe }}</p>
 
           <a href="{% url 'post_detail' pk=post.pk %}">Comments: {{post.approved_comments.count}}</a>
         </div>

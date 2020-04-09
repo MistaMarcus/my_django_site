@@ -1,4 +1,7 @@
 {% extends 'blog/base.html' %}
+{% load markdownify %}
+
+
 {% block content %}
 
 
@@ -21,7 +24,7 @@
     {% endif %}
 
     <h1>{{post.title}}</h1>
-    <p>{{post.text|linebreaksbr}}</p>
+    <p>{{post.text| markdown | safe }}</p>
 </div>
 
 <hr />
@@ -38,7 +41,7 @@
             {% endif %}
 
         <p><strong>{{ comment.author }}</strong></p>
-        <p>{{ comment.text }},  {{ comment.created_date }}</p>
+        <p>{{ comment.text | markdown | safe }},  {{ comment.created_date }}</p>
             
         {% endif %}
 

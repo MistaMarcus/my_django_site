@@ -5,8 +5,11 @@
     "\\blog\\static",
     "\\blog\\static\\css",
     "\\blog\\templates",
-    "\\blog\\templates\\blog"
+    "\\blog\\templatetags",
+    "\\blog\\__pycache__",
+    "\\mysite",
+    "\\mysite\\__pycache__"
   ],
-  "SelectedNode": "\\blog\\views.py",
+  "SelectedNode": "\\blog\\models.py",
   "PreviewInSolutionExplorer": false
 }
