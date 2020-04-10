@@ -2,14 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\blog",
-    "\\blog\\static",
-    "\\blog\\static\\css",
-    "\\blog\\templates",
-    "\\blog\\templatetags",
-    "\\blog\\__pycache__",
-    "\\mysite",
-    "\\mysite\\__pycache__"
+    "\\mysite"
   ],
-  "SelectedNode": "\\blog\\models.py",
+  "SelectedNode": "\\mysite\\settings.py",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,12 @@
+﻿{% extends 'blog/base.html' %}
+{% load crispy_forms_tags %}
+
+{% block content %}
+
+<div class=" = panel panel-default" style="width: 400px; margin: auto;">
+    <h3 style="text-align: center; font-family: sans-serif">Become a Python Programmer</h3>
+    <div class="panel-body">
+        {% crispy form %}
+    </div>
+</div>
+{% endblock %}
